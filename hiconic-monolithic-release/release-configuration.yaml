@@ -1,4 +1,5 @@
 {
+    # displayName: "Hiconic Monolitic Release",
     repositoryPrototype: !com.braintribe.devrock.model.repository.IndexedMavenHttpRepository {
         name: "hiconic-monolithic-release",
         url: "https://maven.pkg.github.com/hiconic-os/maven-repo-dev",
