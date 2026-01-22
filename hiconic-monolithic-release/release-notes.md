@@ -9,20 +9,15 @@
 
 ## Changes
 
-### Hibernate
-- Automatic indices for foreign keys on entity and linear collection props
-- Support fur Opimistic Locking with @Version property annotation / Version meta data
-- Experimental graph-fetching (parallelized entity graph resolution framework)
+### Hiberante Mappings
+- Fixed mapping for collections of BigDecimal
+- Introduced TRIBEFIRE_HBM_MAPPING_VERSION env
+- Collections of Dates now mapped as timestamp (date+time) rather than date only (mapping version 2)
+- Collections of Enums now stored as text rather than binary (mapping version 2)
+- Generating indices for properties with Indexed MD (mapping version 3; will be controlled by a separate property later)
+- Automatic generation of indices for foreign keys and map key column (mapping version 3; will be controlled by a separate property later)
 
-### GM
-- AOP Support for Workes with WorkerAspect
-
-### Tools
-- Fixing message when raising version for publishing
-
-### General
-- Hiding sensitive information from logs
-- About page text color fixed for Mac
-
-### Reflex
-- Support for Explorer and many core features adapted (checks, swagger-ui, workers...), still WIP
+### Graph Fetching
+- implemented with different resolution strategies
+- there is still the need to measure how the strategies perform in real life contexts
+- in case of Hibernate direct SQL is used for resolution

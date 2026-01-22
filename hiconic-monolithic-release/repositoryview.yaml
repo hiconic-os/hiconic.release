@@ -1,4 +1,5 @@
 !com.braintribe.devrock.model.repositoryview.RepositoryView
+immutable: false
 repositories:
   - !com.braintribe.devrock.model.repository.IndexedMavenHttpRepository
     artifactFilter: !com.braintribe.devrock.model.repository.filters.LockArtifactFilter
@@ -87,7 +88,7 @@ repositories:
         ? "com.braintribe.devrock:maven-settings-model#2.0.19"
         ? "com.braintribe.devrock:mc-analytics#2.0.24"
         ? "com.braintribe.devrock:mc-api#2.0.42"
-        ? "com.braintribe.devrock:mc-core#2.0.112"
+        ? "com.braintribe.devrock:mc-core#2.0.113"
         ? "com.braintribe.devrock:mc-core-documentation#2.0.29"
         ? "com.braintribe.devrock:mc-core-event-model#2.0.18"
         ? "com.braintribe.devrock:mc-core-wirings#2.0.57"
@@ -346,8 +347,8 @@ repositories:
         ? "com.braintribe.gm:gm-web-rpc-client#2.0.39"
         ? "com.braintribe.gm:gm-web-rpc-client-api#2.0.6"
         ? "com.braintribe.gm:gm-web-rpc-server#2.0.24"
-        ? "com.braintribe.gm:graph-fetching#2.0.14"
-        ? "com.braintribe.gm:graph-fetching-test-commons#2.0.5"
+        ? "com.braintribe.gm:graph-fetching#2.0.15"
+        ? "com.braintribe.gm:graph-fetching-test-commons#2.0.6"
         ? "com.braintribe.gm:graph-fetching-test-model#2.0.6"
         ? "com.braintribe.gm:hc-js-base#2.0.4"
         ? "com.braintribe.gm:http-transport#2.0.23"
@@ -639,7 +640,7 @@ repositories:
         ? "hiconic.platform.reflex:demo-cli-app#1.0.8"
         ? "hiconic.platform.reflex:demo-model#1.0.11"
         ? "hiconic.platform.reflex:demo-rx-module#1.0.10"
-        ? "hiconic.platform.reflex:demo-web-app#1.0.16"
+        ? "hiconic.platform.reflex:demo-web-app#1.0.17"
         ? "hiconic.platform.reflex:explorer-api-model#1.0.3"
         ? "hiconic.platform.reflex:explorer-app#1.0.1"
         ? "hiconic.platform.reflex:explorer-configuration-model#1.0.1"
@@ -680,9 +681,9 @@ repositories:
         ? "hiconic.platform.reflex:reflex-demo-model#1.0.3"
         ? "hiconic.platform.reflex:reflex-demo-rx-module#1.0.1"
         ? "hiconic.platform.reflex:reflex-model-template#1.0.6"
-        ? "hiconic.platform.reflex:reflex-module-api#1.0.26"
+        ? "hiconic.platform.reflex:reflex-module-api#1.0.27"
         ? "hiconic.platform.reflex:reflex-module-template#1.0.10"
-        ? "hiconic.platform.reflex:reflex-platform#1.0.39"
+        ? "hiconic.platform.reflex:reflex-platform#1.0.40"
         ? "hiconic.platform.reflex:reflex-project-template#1.0.7"
         ? "hiconic.platform.reflex:reflex-setup-api-model#1.0.11"
         ? "hiconic.platform.reflex:reflex-test-commons#1.0.6"
@@ -709,14 +710,14 @@ repositories:
         ? "hiconic.platform.reflex:web-security-configuration-model#1.0.1"
         ? "hiconic.platform.reflex:web-security-module-api#1.0.2"
         ? "hiconic.platform.reflex:web-security-rx-module#1.0.3"
-        ? "hiconic.platform.reflex:web-server-configuration-model#1.0.6"
+        ? "hiconic.platform.reflex:web-server-configuration-model#1.0.7"
         ? "hiconic.platform.reflex:web-server-module-api#1.0.6"
-        ? "hiconic.platform.reflex:web-server-rx-module#1.0.10"
+        ? "hiconic.platform.reflex:web-server-rx-module#1.0.11"
         ? "hiconic.platform.reflex:websocket-server-rx-module#1.0.5"
         ? "hiconic.platform.reflex:worker-module-api#1.0.1"
         ? "hiconic.platform.reflex:worker-rx-module#1.0.2"
-        ? "hiconic.release:hiconic-monolithic-release#3.1.2"
-        ? "hiconic.release:parent#3.1.1"
+        ? "hiconic.release:hiconic-monolithic-release#3.2.1"
+        ? "hiconic.release:parent#3.2.1"
         ? "hiconic.release.base:base-repository-view#3.0.1"
         ? "hiconic.release.base:parent#3.0.1"
         ? "hiconic.release.common:parent#3.0.1"
@@ -1039,8 +1040,8 @@ repositories:
         ? "tribefire.extension.antivirus:antivirus-setup#3.0.3"
         ? "tribefire.extension.antivirus:antivirus-wire-templates#3.0.3"
         ? "tribefire.extension.antivirus:parent#3.0.6"
-        ? "tribefire.extension.artifact:artifact-management-api-model#2.0.14"
-        ? "tribefire.extension.artifact:artifact-management-processing#2.0.21"
+        ? "tribefire.extension.artifact:artifact-management-api-model#2.0.15"
+        ? "tribefire.extension.artifact:artifact-management-processing#2.0.22"
         ? "tribefire.extension.artifact:artifact-processing#2.0.10"
         ? "tribefire.extension.artifact:artifact-processing-access-model#2.0.11"
         ? "tribefire.extension.artifact:artifact-processing-access-wb-resources#2.0.7"
@@ -1173,7 +1174,7 @@ repositories:
         ? "tribefire.extension.hibernate:hibernate-lab-module#2.0.11"
         ? "tribefire.extension.hibernate:hibernate-lab-setup#2.0.9"
         ? "tribefire.extension.hibernate:hibernate-leadership-edr2cc-module#2.0.16"
-        ? "tribefire.extension.hibernate:hibernate-mapping-generator#2.0.30"
+        ? "tribefire.extension.hibernate:hibernate-mapping-generator#2.0.33"
         ? "tribefire.extension.hibernate:hibernate-mapping-generator-test-model#2.0.14"
         ? "tribefire.extension.hibernate:hibernate-meta-data-model#2.0.4"
         ? "tribefire.extension.hibernate:hibernate-module#2.0.31"
@@ -1399,10 +1400,10 @@ repositories:
         ? "tribefire.extension.setup:dev-env-generator-processing#2.1.15"
         ? "tribefire.extension.setup:devrock-sdk#2.1.181"
         ? "tribefire.extension.setup:documentation-metadata-model#2.1.18"
-        ? "tribefire.extension.setup:hiconic-sdk#2.1.152"
+        ? "tribefire.extension.setup:hiconic-sdk#2.1.155"
         ? "tribefire.extension.setup:hiconic-sdk-updator#2.1.1"
-        ? "tribefire.extension.setup:jinni#2.1.773"
-        ? "tribefire.extension.setup:jinni-api-model#2.1.35"
+        ? "tribefire.extension.setup:jinni#2.1.776"
+        ? "tribefire.extension.setup:jinni-api-model#2.1.36"
         ? "tribefire.extension.setup:jinni-config-model#2.1.10"
         ? "tribefire.extension.setup:jinni-meta-data-model#2.1.13"
         ? "tribefire.extension.setup:jinni-update-support#2.1.18"
@@ -1411,7 +1412,7 @@ repositories:
         ? "tribefire.extension.setup:platform-setup-cloud-api-model#2.1.23"
         ? "tribefire.extension.setup:platform-setup-legacy-model#2.1.15"
         ? "tribefire.extension.setup:platform-setup-package-model#2.1.15"
-        ? "tribefire.extension.setup:platform-setup-processing#2.1.212"
+        ? "tribefire.extension.setup:platform-setup-processing#2.1.213"
         ? "tribefire.extension.shiro:parent#5.0.16"
         ? "tribefire.extension.shiro:shiro-aggregator#5.0.5"
         ? "tribefire.extension.shiro:shiro-cartridge-doc#5.0.5"
@@ -1691,10 +1692,13 @@ repositories:
     cachable: true
     changesIndexType: total
     checkSumPolicy: fail
+    isWeaklyCertified: false
     name: "hiconic-monolithic-release"
+    offline: false
     password: "${env.GITHUB_READ_PACKAGES_TOKEN}"
     probingMethod: none
     restSupport: none
+    snapshotRepo: false
     updateable: true
     url: "https://maven.pkg.github.com/hiconic-os/maven-repo-dev"
     user: "ignored"
