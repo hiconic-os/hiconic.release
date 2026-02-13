@@ -6,7 +6,7 @@
         <version>[3.2,3.3)</version>
     </parent>
     <artifactId>hiconic-dev-view</artifactId>
-    <version>3.2.1</version>
+    <version>3.2.2</version>
     <properties>
         <archetype>repository-view</archetype>
     </properties>
