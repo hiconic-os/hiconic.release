@@ -9,15 +9,17 @@
 
 ## Changes
 
-### Hiberante Mappings
-- Fixed mapping for collections of BigDecimal
-- Introduced TRIBEFIRE_HBM_MAPPING_VERSION env
-- Collections of Dates now mapped as timestamp (date+time) rather than date only (mapping version 2)
-- Collections of Enums now stored as text rather than binary (mapping version 2)
-- Generating indices for properties with Indexed MD (mapping version 3; will be controlled by a separate property later)
-- Automatic generation of indices for foreign keys and map key column (mapping version 3; will be controlled by a separate property later)
+### Validation Extension
 
-### Graph Fetching
-- implemented with different resolution strategies
-- there is still the need to measure how the strategies perform in real life contexts
-- in case of Hibernate direct SQL is used for resolution
+- introduced `tribefire.extension.validation`
+- works in reflex and cortex
+- constraint metadata/annotation request+payload validation
+- custom validator support
+
+
+### Auth Extension
+
+- introduced `tribefire.extension.auth`
+- works in reflex and cortex
+- role-based request authorization mapped with metadata/annotation
+- reflection support for current user overview and general overview
