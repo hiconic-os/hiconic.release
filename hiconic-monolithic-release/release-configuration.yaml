@@ -1,10 +1,11 @@
 {
-    # displayName: "Hiconic Monolitic Release",
+    # displayName: "Hiconic Monolithic Release",
     repositoryPrototype: !com.braintribe.devrock.model.repository.IndexedMavenHttpRepository {
         name: "hiconic-monolithic-release",
         url: "https://maven.pkg.github.com/hiconic-os/maven-repo-dev",
         user: "ignored",
-        password: "${env.GITHUB_READ_PACKAGES_TOKEN}"
+        password: "${env.GITHUB_READ_PACKAGES_TOKEN}",
+        dominanceFilter: !com.braintribe.devrock.model.repository.filters.AllMatchingArtifactFilter {}
     },
     includes: [
         "*"
